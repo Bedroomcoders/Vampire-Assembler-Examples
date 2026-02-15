@@ -9,7 +9,7 @@
 **
 **			This code build on previous examples and shows how to fill screen fast with any color as input.
 **			In addition it shows how to convert one single RGB (24 bit) color to 16 bit RGB565.
-**			Please mind that for superfast convertion of two 32bit RGBA to RGB565 we would use the AMMX instruction PACK3216
+**			Please mind that for superfast convertion of 2x2 32bit RGBA to RGB565 we would use the AMMX instruction PACK3216
 **			That would be more suitable for converting a 24 bit image to 16 bits. 
 **			but this code give better understanding of how it`s done.
 

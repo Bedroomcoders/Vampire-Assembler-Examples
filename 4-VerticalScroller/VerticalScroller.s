@@ -7,11 +7,11 @@
 **	Author: Tomas Jacobsen - Bedroomcoders.com
 **	Description: 
 **
-**			This code build on previous examples and and copy a large image from our data section to the allocated screen.
+**			This code build on previous examples and copy a large image from our data section to the allocated screen.
 **			Further it shows a classic hardware trick that is available on many computer platform, Vertical scroll without moving any data.
 **			The Screens buffer containing the image is larger than the screen resolution, and only a portion of it is displayed.
 **			By manipulating the screenpointer (where we tell the hardware to show data on screen), we can create the effect of
-**			scrolling up and down or image.
+**			scrolling up and down in the image.
 
 
 			opt d+
