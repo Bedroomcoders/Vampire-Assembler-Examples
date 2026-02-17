@@ -478,8 +478,9 @@ store_bplhpth		ds.l	1
 
 			section	mydata,data
 
+
 audio_Kick		incbin	"audio/808 Kick.raw"
-audio_Kick_End
+audio_Kick_End		
 
 audio_OpenHihat		incbin	"audio/808 Open Hihat.raw"
 audio_OpenHihat_End
@@ -495,8 +496,6 @@ audio_Clap_End
 
 audio_Maracas		incbin	"audio/808 Maracas.raw"
 audio_Maracas_End
-
-
 
 
 gfx_TinyBeatBoxLogo	incbin	"graphics/tinybeatboxlogo-720x130.raw"
